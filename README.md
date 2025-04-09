@@ -36,14 +36,14 @@ node main
 ```
 -----------------------------------------------------------------
 
-- If you're logging in with a third-party service (e.g., Google), you’ll need to manually retrieve the token (valid for 2 months):
+6. If you're logging in with a third-party service (e.g., Google), you’ll need to manually retrieve the token (valid for 2 months):
 
-- Method 1: Open the website 
+6-1. Method 1: Open the website 
 - → press F12 (Inspect) 
 - → go to the Application tab 
 - → then LocalStorage → find accessToken
 
-- Method 2: Open the website 
+6-2. Method 2: Open the website 
 - → press F12 
 - → go to the Console tab 
 - → paste and run the following code:
