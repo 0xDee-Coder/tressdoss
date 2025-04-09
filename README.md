@@ -38,9 +38,15 @@ node main
 
 - If you're logging in with a third-party service (e.g., Google), you’ll need to manually retrieve the token (valid for 2 months):
 
-- Method 1: Open the website → press F12 (Inspect) → go to the Application tab → then LocalStorage → find accessToken
+- Method 1: Open the website 
+- → press F12 (Inspect) 
+- → go to the Application tab 
+- → then LocalStorage → find accessToken
 
-- Method 2: Open the website → press F12 → go to the Console tab → paste and run the following code:
+- Method 2: Open the website 
+- → press F12 
+- → go to the Console tab 
+- → paste and run the following code:
 (If pasting is not allowed, type allow pasting manually first, then paste again)
 ```
 try {
