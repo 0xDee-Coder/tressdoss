@@ -1,9 +1,9 @@
 # tressdos
 
 ## FEATURES
-- Auto referral
-- Auto chatting
-- Multi-threaded, multi-account, random user agents, etc.
+- Auto checkin
+- Auto Ping
+- Multi-threaded, multi-account
 
 ## Installation
 
