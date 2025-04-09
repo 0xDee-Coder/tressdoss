@@ -34,13 +34,13 @@ nano data.txt
 ```bash
 node main
 ```
+-----------------------------------------------------------------
 
-========================================================================
-⚠️ If you're logging in with a third-party service (e.g., Google), you’ll need to manually retrieve the token (valid for 2 months):
+- If you're logging in with a third-party service (e.g., Google), you’ll need to manually retrieve the token (valid for 2 months):
 
-Method 1: Open the website → press F12 (Inspect) → go to the Application tab → then LocalStorage → find accessToken
+- Method 1: Open the website → press F12 (Inspect) → go to the Application tab → then LocalStorage → find accessToken
 
-Method 2: Open the website → press F12 → go to the Console tab → paste and run the following code:
+- Method 2: Open the website → press F12 → go to the Console tab → paste and run the following code:
 (If pasting is not allowed, type allow pasting manually first, then paste again)
 ```
 try {
@@ -50,16 +50,16 @@ try {
   console.error(error);
 }
 ```
-⚠️ After retrieving the token, save it into the file tokens.txt.
+- After retrieving the token, save it into the file tokens.txt.
 ```bash
 nano tokens.txt
 ```
 
-⚠️Run the command node setup to set up the token.
+- Run the command node setup to set up the token.
 ```bash
 node setup
 ```
-⚠️ then run node main.
+- run node main.
 ```bash
 node main
 ```
